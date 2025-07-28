@@ -13,7 +13,7 @@ The goal of this challenge is to provide users with a quick and intuitive way to
 
 ## 🚀 Live Demo
 
-🔗 [View Deployed App on Vercel]([https://vresto-upcoming-reservation.vercel.app/])
+🔗 [View Deployed App on Vercel](https://vresto-upcoming-reservation.vercel.app/)
 
 ---
 
