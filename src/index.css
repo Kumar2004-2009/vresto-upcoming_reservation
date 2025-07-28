@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+:root {
+  --bg-primary: #f9fafb;
+  --bg-secondary: #ffffff;
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --border-color: #e5e7eb; 
+  --card-bg: #d4e5f5; 
+  --button-bg: #4f46e5; 
+  --button-hover: #4338ca; 
+  --cancel-bg: #ef4444;
+  --cancel-hover: #dc2626; 
+  --indigo-icon: #6366f1;
+}
+
+/* Dark mode */
+.dark {
+  --bg-primary: #111827; 
+  --bg-secondary: #1f2937; 
+  --text-primary: #f3f4f6; 
+  --text-secondary: #9ca3af; 
+  --border-color: #e0e4eb; 
+  --card-bg: #1f2937; 
+  --button-bg: #6366f1;
+  --button-hover: #4f46e5; 
+  --cancel-bg: #dc2626;
+  --cancel-hover: #b91c1c; 
+  --indigo-icon: #818cf8; 
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Toastify__toast-container {
+  --toastify-color-light: var(--bg-secondary);
+  --toastify-color-dark: var(--bg-secondary);
+  --toastify-text-color-light: var(--text-primary);
+  --toastify-text-color-dark: var(--text-primary);
+}
